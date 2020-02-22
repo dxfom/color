@@ -9,7 +9,7 @@
     "dxf"
   ],
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.mjs"
   },
   "devDependencies": {
     "pure-color": "^1.3.0"

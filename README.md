@@ -15,20 +15,20 @@ $ npm i dxfom/color
 ```javascript
 const colorIndex = 1 // 0 - 255
 
-const { DXF_COLOR_RGB } = require('@dxfom/color/rgb')
+import { DXF_COLOR_RGB } from '@dxfom/color/rgb'
 console.log(DXF_COLOR_RGB[colorIndex]) // [255, 0, 0]
 
-const { DXF_COLOR_HEX } = require('@dxfom/color/hex')
+import { DXF_COLOR_HEX } from '@dxfom/color/hex'
 console.log(DXF_COLOR_HEX[colorIndex]) // "#ff0000"
 
-const { DXF_COLOR_HSL } = require('@dxfom/color/hsl')
+import { DXF_COLOR_HSL } from '@dxfom/color/hsl'
 console.log(DXF_COLOR_HSL[colorIndex]) // [0, 100, 50]
 ```
 
 
 ## License
 
-Undecided yet.
+T.B.D.
 
 
 ## Source

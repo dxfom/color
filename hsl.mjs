@@ -1,4 +1,4 @@
-exports.DXF_COLOR_HSL = [
+export const DXF_COLOR_HSL = [
   [0, 0, 0],
   [0, 100, 50],
   [60, 100, 50],

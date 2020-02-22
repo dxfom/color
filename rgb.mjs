@@ -1,4 +1,4 @@
-exports.DXF_COLOR_RGB = [
+export const DXF_COLOR_RGB = [
   [0, 0, 0],
   [255, 0, 0],
   [255, 255, 0],

@@ -1,4 +1,4 @@
-exports.DXF_COLOR_HEX = [
+export const DXF_COLOR_HEX = [
   "#000000",
   "#ff0000",
   "#ffff00",
