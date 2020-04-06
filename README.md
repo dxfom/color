@@ -6,7 +6,7 @@ DXF color index mappings.
 ## Installation
 
 ```bash
-$ npm i dxfom/color
+$ npm i @dxfom/color
 ```
 
 

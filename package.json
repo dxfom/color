@@ -1,8 +1,7 @@
 {
   "name": "@dxfom/color",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "DXF color index mappings.",
-  "private": true,
   "license": "GPL-3.0",
   "repository": "dxfom/color",
   "keywords": [
