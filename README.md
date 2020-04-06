@@ -26,11 +26,11 @@ console.log(DXF_COLOR_HSL[colorIndex]) // [0, 100, 50]
 ```
 
 
-## License
-
-T.B.D.
-
-
 ## Source
 
-http://gohtx.com/acadcolors.php
+https://gohtx.com/acadcolors.php
+
+
+## License
+
+GPL 3.0
