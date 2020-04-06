@@ -269,7 +269,6 @@ const __dirname = path.dirname(url.fileURLToPath(import.meta.url))
 const write = (basename, exportName, contentObject) => {
   const contentString = `export const ${exportName}=${JSON.stringify(contentObject)}`
   fs.writeFileSync(path.resolve(__dirname, `${basename}.mjs`), contentString, 'utf8')
-  fs.writeFileSync(path.resolve(__dirname, `${basename}.d.ts`), contentString, 'utf8')
 }
 
 write('rgb', 'DXF_COLOR_RGB', DXF_COLOR_RGB)
