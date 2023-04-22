@@ -267,6 +267,7 @@ const round = n => Math.round(n * 10) / 10
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url))
 const write = (basename, exportName, contentObject) => {
+  fs.writeFileSync(path.resolve(__dirname, `${basename}.json`), JSON.stringify(contentObject), 'utf8')
   const contentString = `export const ${exportName}=${JSON.stringify(contentObject)}`
   fs.writeFileSync(path.resolve(__dirname, `${basename}.js`), contentString, 'utf8')
 }
