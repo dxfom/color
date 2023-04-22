@@ -1,6 +1,6 @@
-import fs from 'fs'
-import path from 'path'
-import url from 'url'
+import fs from 'node:fs'
+import path from 'node:path'
+import url from 'node:url'
 import rgb2hex from 'pure-color/convert/rgb2hex.js'
 import rgb2hsl from 'pure-color/convert/rgb2hsl.js'
 
@@ -268,7 +268,7 @@ const round = n => Math.round(n * 10) / 10
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url))
 const write = (basename, exportName, contentObject) => {
   const contentString = `export const ${exportName}=${JSON.stringify(contentObject)}`
-  fs.writeFileSync(path.resolve(__dirname, `${basename}.mjs`), contentString, 'utf8')
+  fs.writeFileSync(path.resolve(__dirname, `${basename}.js`), contentString, 'utf8')
 }
 
 write('rgb', 'DXF_COLOR_RGB', DXF_COLOR_RGB)

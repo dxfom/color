@@ -7,8 +7,9 @@
   "keywords": [
     "dxf"
   ],
+  "type": "module",
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node build.js"
   },
   "devDependencies": {
     "pure-color": "^1.3.0"
